@@ -1,0 +1,53 @@
+.header2 a:nth-child(1){
+    background-color: #FF7361;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 115, 97, 255);
+    padding: 20px;
+}
+
+.section0 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section button{
+    background-color: rgba(55,59,68,255);
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.section {
+    width: 50%;
+    color: white;
+}
+
+.section0 img {
+    width: 30%;
+}
+
+.article {
+    background-color: rgba(243,243,243,255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    padding: 5%;
+}
+.articleSec{
+    display: flex;
+    background-color: white;
+    color: #676b74;
+}
+.articleSec i{
+    font-size: 50px;
+    margin: 0 10px 0 10px;
+    
+}

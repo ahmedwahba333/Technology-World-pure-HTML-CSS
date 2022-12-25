@@ -1,0 +1,84 @@
+.header2 a:nth-child(6) {
+    background-color: #FF7361;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 115, 97, 255);
+}
+
+.section0 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section0 h2 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.section0 a {
+    text-decoration: none;
+}
+
+.section0 a:nth-child(1) {
+    color: black;
+}
+
+.section0 a:nth-child(3) {
+    color: white;
+}
+
+article {
+    text-align: center;
+    background-color: rgba(243, 243, 243, 255);
+    padding: 10px;
+}
+
+
+
+
+
+.iframe{
+    border-top: 3px dashed rgba(218,218,219,255);
+    border-bottom: 3px dashed rgba(218,218,219,255);
+}
+iframe{
+    width: 100%;
+}
+
+
+
+
+aside{
+    display: flex;
+    justify-content: center;
+}
+
+.aside{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.asideLeft{
+    width: 60rem;
+}
+form input{
+    margin: 5px;
+}
+textarea{
+    width: 100%;
+    margin: 5px;
+}
+.myBtn{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 3px;
+}

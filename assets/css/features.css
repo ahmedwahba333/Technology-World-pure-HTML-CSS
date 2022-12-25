@@ -1,0 +1,124 @@
+.header2 a:nth-child(5) {
+    background-color: #FF7361;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 115, 97, 255);
+}
+
+.section0 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section0 h2 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.section0 a {
+    text-decoration: none;
+}
+
+.section0 a:nth-child(1) {
+    color: black;
+}
+
+.section0 a:nth-child(3) {
+    color: white;
+}
+
+
+
+
+article {
+    text-align: center;
+    background-color: rgba(243, 243, 243, 255);
+    padding: 10px;
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container0 {
+    width: 60rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px;
+}
+.containerCard{
+    border: 3px rgba(243,243,243,255) solid;
+    height: fit-content;
+}
+
+.containerCard hr{
+    background-color: rgba(243,243,243,255);
+    margin: 0;
+}
+.price {
+    display: flex;
+    align-items: center;
+    color: #FF7361;
+    justify-content: center;
+    background-color: rgba(243,243,243,255);
+    padding: 0 60px;
+}
+.heading{
+    border-bottom: 1px solid black;
+}
+.parag{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.containerCard a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(55,59,68,255);
+display: block;
+    padding: 10px;
+}
+
+
+.rightCon {
+    width: 20%;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;
+    border-bottom: 1px dashed #ffcdc6;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li::before {
+    content: ">";
+    color: #FF7361;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+
+.rightCon input {
+    width: 100%;
+}
